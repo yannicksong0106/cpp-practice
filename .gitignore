@@ -1,0 +1,21 @@
+# Build
+build/
+out/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.log
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+CMakeUserPresets.json
+
+# OS
+Thumbs.db
+.DS_Store
