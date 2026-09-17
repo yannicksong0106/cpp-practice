@@ -24,14 +24,23 @@ labNN-<topic>/     # 按实验编号 + 主题命名（kebab-case）
 |------|------|
 | [lab01-structure-basics](lab01-structure-basics/) | 数据结构基础：概念、顺序存储、复杂度 |
 
-## 构建（单个实验）
+## 构建
+
+### Visual Studio 2022（推荐）
+
+打开对应实验目录下的 `.sln`，例如：
+
+```
+lab01-structure-basics/lab01-structure-basics.sln
+```
+
+需要 VS2022 +「使用 C++ 的桌面开发」工作负载。
+
+### 命令行
 
 ```powershell
 cd lab01-structure-basics
-cmake -B build
-cmake --build build
-.\build\Debug\task01-student-info.exe   # Windows (MSVC)
-# 或 .\build\task01-student-info.exe     # MinGW / Ninja
+msbuild lab01-structure-basics.sln /p:Configuration=Release /p:Platform=x64
 ```
 
-需要 CMake ≥ 3.16 与支持 C++17 的编译器。
+也保留 CMake，可用 CMake 生成其他工程。
