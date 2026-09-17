@@ -1,6 +1,7 @@
 # Build
 build/
 out/
+vs2022/
 *.obj
 *.o
 *.exe
@@ -8,12 +9,36 @@ out/
 *.ilk
 *.idb
 *.log
+*.tlog
+*.lastbuildstate
+*.iobj
+*.ipdb
 
-# IDE
+# Visual Studio
 .vs/
-.vscode/
+x64/
+Debug/
+Release/
 *.user
 *.suo
+*.VC.db
+*.VC.opendb
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+
+# IDE
+.vscode/
 CMakeUserPresets.json
 
 # OS
