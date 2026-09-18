@@ -23,6 +23,7 @@ labNN-<topic>/     # 按实验编号 + 主题命名（kebab-case）
 | 目录 | 主题 |
 |------|------|
 | [lab01-structure-basics](lab01-structure-basics/) | 数据结构基础：概念、顺序存储、复杂度 |
+| [lab02-sequential-list](lab02-sequential-list/) | 顺序表操作：初始化、插删查、菜单综合 |
 
 ## 构建
 
@@ -32,6 +33,7 @@ labNN-<topic>/     # 按实验编号 + 主题命名（kebab-case）
 
 ```
 lab01-structure-basics/lab01-structure-basics.sln
+lab02-sequential-list/lab02-sequential-list.sln
 ```
 
 需要 VS2022 +「使用 C++ 的桌面开发」工作负载。
@@ -39,8 +41,8 @@ lab01-structure-basics/lab01-structure-basics.sln
 ### 命令行
 
 ```powershell
-cd lab01-structure-basics
-msbuild lab01-structure-basics.sln /p:Configuration=Release /p:Platform=x64
+cd lab02-sequential-list
+msbuild lab02-sequential-list.sln /p:Configuration=Release /p:Platform=x64
 ```
 
 也保留 CMake，可用 CMake 生成其他工程。
