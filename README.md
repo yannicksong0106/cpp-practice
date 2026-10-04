@@ -24,6 +24,7 @@ labNN-<topic>/     # 按实验编号 + 主题命名（kebab-case）
 |------|------|
 | [lab01-structure-basics](lab01-structure-basics/) | 数据结构基础：概念、顺序存储、复杂度 |
 | [lab02-sequential-list](lab02-sequential-list/) | 顺序表操作：初始化、插删查、菜单综合 |
+| [lab03-linked-list](lab03-linked-list/) | 链表操作及应用（一）：带表头单链表、尾插法、多字段数据元素 |
 
 ## 构建
 
