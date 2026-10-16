@@ -26,6 +26,7 @@ labNN-<topic>/     # 按实验编号 + 主题命名（kebab-case）
 | [lab02-sequential-list](lab02-sequential-list/) | 顺序表操作：初始化、插删查、菜单综合 |
 | [lab03-linked-list](lab03-linked-list/) | 链表操作及应用（一）：带表头单链表、尾插法、多字段数据元素 |
 | [lab04-doubly-circular-list](lab04-doubly-circular-list/) | 链表操作及应用（二）：双向链表插删查改、循环链表闭环 |
+| [lab05-stack-operations](lab05-stack-operations/) | 栈操作及应用：顺序栈、链栈基础操作、十进制转二进制 |
 
 ## 构建
 
